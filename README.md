@@ -34,8 +34,6 @@ $ julia juego.jl
 
 Los jugadores "X" y "O" alternan turnos, haciendo click sobre los botones que son las casillas del juego. El juego termina cuando uno de los jugados alínea 3 piezas, o cuando hay un empate. Si un jugador hace click sobre una casilla ocupada, no sucede nada; tiene que escoger una casilla vacía.
 
-![](https://github.com/rodrigolece/juego-gato/blob/master/screen.tiff | width=500)
-
 
 ## Limitaciones del código
 
