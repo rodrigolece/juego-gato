@@ -1,4 +1,3 @@
-using Gtk.ShortNames
 
 g = @Grid()
 win = @Window(g, "Gato", 300, 300, false, true)
@@ -29,13 +28,6 @@ setproperty!(g, :row_homogeneous, true)
 setproperty!(g, :row_spacing, 15)
 showall(win)
 
-function button_clicked(widget)
-	pos = getproperty(widget, :label, AbstractString)
-	pos = Int(pos[1]) - 48
-	println(pos)
-# 	println(getproperty(widget, :label, AbstractString))
-# 	setproperty!(widget, :label, "ON")
-end
 
 signal_connect(button_clicked, b1, :clicked)
 signal_connect(button_clicked, b2, :clicked)
