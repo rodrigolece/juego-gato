@@ -42,15 +42,15 @@ showall(win)
 
 # Señales cuando los botones son apretados
 
-signal_connect(button_clicked, b1, :clicked)
-signal_connect(button_clicked, b2, :clicked)
-signal_connect(button_clicked, b3, :clicked)
-signal_connect(button_clicked, b4, :clicked)
-signal_connect(button_clicked, b5, :clicked)
-signal_connect(button_clicked, b6, :clicked)
-signal_connect(button_clicked, b7, :clicked)
-signal_connect(button_clicked, b8, :clicked)
-signal_connect(button_clicked, b9, :clicked)
+signal_connect(button_clicked_cb, b1, :clicked)
+signal_connect(button_clicked_cb, b2, :clicked)
+signal_connect(button_clicked_cb, b3, :clicked)
+signal_connect(button_clicked_cb, b4, :clicked)
+signal_connect(button_clicked_cb, b5, :clicked)
+signal_connect(button_clicked_cb, b6, :clicked)
+signal_connect(button_clicked_cb, b7, :clicked)
+signal_connect(button_clicked_cb, b8, :clicked)
+signal_connect(button_clicked_cb, b9, :clicked)
 
 
 # Para correr el código como script

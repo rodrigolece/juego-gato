@@ -12,9 +12,9 @@ t = nvo_juego()
 
 # Esta función es la que hace que el juego y la interfaz se hablen. Se llama con la señal de un click sobre un botón.
 
-button_clicked(widget) = button_clicked(widget, t)
+button_clicked_cb(widget) = button_clicked_cb(widget, t)
 
-function button_clicked(widget, t::Tablero)
+function button_clicked_cb(widget, t::Tablero)
 	# Pedimos la posicíon del click, que es el nombre del botón
 	pos = getproperty(widget, :label, AbstractString)
 	pos = Int(pos[1]) - 48 # Lo convertimos a un entero entre 1 y 9
